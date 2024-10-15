@@ -1,8 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_basicauth import BasicAuth
 from textblob import TextBlob
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
 import pickle
 
 colunas = ["tamanho", "ano", "garagem"]
